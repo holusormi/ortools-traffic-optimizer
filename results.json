@@ -2,247 +2,1145 @@
     "status": "done",
     "progress": 100,
     "result": {
+        "optimization_summary": {
+            "assigned_orders": 9,
+            "average_stops_per_vehicle": 1.8,
+            "total_orders": 9,
+            "total_stops": 9,
+            "total_vehicles_used": 1,
+            "unassigned_orders": 0
+        },
         "route_details": [
             {
                 "route": [
                     {
-                        "arrival": null,
+                        "arrival_minutes": 0,
+                        "demand": 0,
                         "load": 0,
-                        "location_index": 0
+                        "location_index": 0,
+                        "location_info": {
+                            "driver_name": "Димитър Димитров",
+                            "id": 28,
+                            "location_index": 0,
+                            "name": "TX1284МТ",
+                            "type": "warehouse",
+                            "vehicle_name": "TX1284МТ"
+                        }
                     },
                     {
-                        "arrival": null,
-                        "load": 0,
-                        "location_index": 0
-                    }
-                ],
-                "total_distance": 0,
-                "total_load": 0,
-                "vehicle_id": 0
-            },
-            {
-                "route": [
-                    {
-                        "arrival": null,
-                        "load": 0,
-                        "location_index": 1
-                    },
-                    {
-                        "arrival": null,
-                        "load": 0,
-                        "location_index": 1
-                    }
-                ],
-                "total_distance": 0,
-                "total_load": 0,
-                "vehicle_id": 1
-            },
-            {
-                "route": [
-                    {
-                        "arrival": null,
-                        "load": 0,
-                        "location_index": 2
-                    },
-                    {
-                        "arrival": null,
-                        "load": 0,
-                        "location_index": 2
-                    }
-                ],
-                "total_distance": 0,
-                "total_load": 0,
-                "vehicle_id": 2
-            },
-            {
-                "route": [
-                    {
-                        "arrival": null,
-                        "load": 0,
-                        "location_index": 3
-                    },
-                    {
-                        "arrival": null,
+                        "arrival_minutes": 0,
+                        "demand": 2,
                         "load": 2,
-                        "location_index": 13
+                        "location_index": 6,
+                        "location_info": {
+                            "client_address": "гр Добрич Добрич ГР ГЛАВИНИЦА п к 7630 ул ОБОРИЩЕ 5",
+                            "client_name": "АВТОТРАНС",
+                            "client_phone": "0885736867",
+                            "location_index": 6,
+                            "order_id": 11251,
+                            "order_no": 2011245,
+                            "priority": 5,
+                            "type": "order"
+                        }
                     },
                     {
-                        "arrival": null,
+                        "arrival_minutes": 0,
+                        "demand": 1,
+                        "load": 3,
+                        "location_index": 9,
+                        "location_info": {
+                            "client_address": "гр Добрич Добрич 25 ТИ СЕПТЕМВРИ 62А",
+                            "client_name": "ГАРДЕНИЯ",
+                            "client_phone": "058600217,0887615608",
+                            "location_index": 9,
+                            "order_id": 11254,
+                            "order_no": 2011248,
+                            "priority": 5,
+                            "type": "order"
+                        }
+                    },
+                    {
+                        "arrival_minutes": 0,
+                        "demand": 2,
                         "load": 5,
-                        "location_index": 10
+                        "location_index": 5,
+                        "location_info": {
+                            "client_address": "гр Добрич Добрич БУЛ 25 СЕПТЕМВРИ 19 вх Б ет 5 ап 13",
+                            "client_name": "25 СЕПТЕМВРИ 19 Б",
+                            "client_phone": "0877331707",
+                            "location_index": 5,
+                            "order_id": 11250,
+                            "order_no": 2011244,
+                            "priority": 5,
+                            "type": "order"
+                        }
                     },
                     {
-                        "arrival": null,
+                        "arrival_minutes": 0,
+                        "demand": 1,
                         "load": 6,
-                        "location_index": 11
+                        "location_index": 11,
+                        "location_info": {
+                            "client_address": "гр Добрич Добрич УЛ ГЕНЕРАЛ КОЛЕВ 60 ет 2",
+                            "client_name": "ГЕНЕРАЛ КОЛЕВ 60",
+                            "client_phone": "0899388082",
+                            "location_index": 11,
+                            "order_id": 11256,
+                            "order_no": 2011250,
+                            "priority": 5,
+                            "type": "order"
+                        }
                     },
                     {
-                        "arrival": null,
-                        "load": 8,
-                        "location_index": 6
-                    },
-                    {
-                        "arrival": null,
+                        "arrival_minutes": 0,
+                        "demand": 3,
                         "load": 9,
-                        "location_index": 9
+                        "location_index": 10,
+                        "location_info": {
+                            "client_address": "гр Добрич Добрич УЛ ВОЛГА 12",
+                            "client_name": "ВОЛГА 12",
+                            "client_phone": "0897722442",
+                            "location_index": 10,
+                            "order_id": 11255,
+                            "order_no": 2011249,
+                            "priority": 5,
+                            "type": "order"
+                        }
                     },
                     {
-                        "arrival": null,
+                        "arrival_minutes": 0,
+                        "demand": 2,
                         "load": 11,
-                        "location_index": 5
+                        "location_index": 13,
+                        "location_info": {
+                            "client_address": "гр Добрич Добрич ЖК ДРУЖБА 42 вх А ет 5 ап 12",
+                            "client_name": "ДРУЖБА 42 А",
+                            "client_phone": "0887341155",
+                            "location_index": 13,
+                            "order_id": 11258,
+                            "order_no": 2011252,
+                            "priority": 5,
+                            "type": "order"
+                        }
                     },
                     {
-                        "arrival": null,
+                        "arrival_minutes": 0,
+                        "demand": 2,
                         "load": 13,
-                        "location_index": 12
+                        "location_index": 12,
+                        "location_info": {
+                            "client_address": "гр Добрич Добрич ДУЛОВО п к 7650 ул НИКОЛА ПЕТКОВ 12",
+                            "client_name": "ДОА КАР",
+                            "client_phone": "0896894196",
+                            "location_index": 12,
+                            "order_id": 11257,
+                            "order_no": 2011251,
+                            "priority": 5,
+                            "type": "order"
+                        }
                     },
                     {
-                        "arrival": null,
+                        "arrival_minutes": 0,
+                        "demand": 3,
                         "load": 16,
-                        "location_index": 7
+                        "location_index": 7,
+                        "location_info": {
+                            "client_address": "гр Добрич Добрич ЖК БАЛИК 27 вх А ет 8 ап 21",
+                            "client_name": "БАЛИК 27",
+                            "client_phone": "0885850149",
+                            "location_index": 7,
+                            "order_id": 11252,
+                            "order_no": 2011246,
+                            "priority": 5,
+                            "type": "order"
+                        }
                     },
                     {
-                        "arrival": null,
+                        "arrival_minutes": 0,
+                        "demand": 1,
                         "load": 17,
-                        "location_index": 8
+                        "location_index": 8,
+                        "location_info": {
+                            "client_address": "гр Добрич Добрич ЖК БАЛИК 28 вх Б ет 8 ап 21",
+                            "client_name": "БАЛИК 28 Б",
+                            "client_phone": "0876977336",
+                            "location_index": 8,
+                            "order_id": 11253,
+                            "order_no": 2011247,
+                            "priority": 5,
+                            "type": "order"
+                        }
                     },
                     {
-                        "arrival": null,
+                        "arrival_minutes": 0,
+                        "demand": 0,
                         "load": 17,
-                        "location_index": 3
+                        "location_index": 0,
+                        "location_info": {
+                            "driver_name": "Димитър Димитров",
+                            "id": 28,
+                            "location_index": 0,
+                            "name": "TX1284МТ",
+                            "type": "warehouse",
+                            "vehicle_name": "TX1284МТ"
+                        }
                     }
                 ],
-                "total_distance": 4468334,
+                "stops_count": 9,
+                "total_distance": 21838,
+                "total_distance_km": 21.84,
                 "total_load": 17,
-                "vehicle_id": 3
+                "total_time_minutes": 0,
+                "vehicle_id": 0,
+                "warehouse_info": {
+                    "driver_name": "Димитър Димитров",
+                    "id": 28,
+                    "location_index": 0,
+                    "name": "TX1284МТ",
+                    "type": "warehouse",
+                    "vehicle_name": "TX1284МТ"
+                }
             },
             {
                 "route": [
                     {
-                        "arrival": null,
+                        "arrival_minutes": 0,
+                        "demand": 0,
                         "load": 0,
-                        "location_index": 4
+                        "location_index": 1,
+                        "location_info": {
+                            "driver_name": "НЕВЯНА ДИМИТРОВА",
+                            "id": 25,
+                            "location_index": 1,
+                            "name": "TX6302MT",
+                            "type": "warehouse",
+                            "vehicle_name": "TX6302MT"
+                        }
                     },
                     {
-                        "arrival": null,
+                        "arrival_minutes": 0,
+                        "demand": 0,
                         "load": 0,
-                        "location_index": 4
+                        "location_index": 1,
+                        "location_info": {
+                            "driver_name": "НЕВЯНА ДИМИТРОВА",
+                            "id": 25,
+                            "location_index": 1,
+                            "name": "TX6302MT",
+                            "type": "warehouse",
+                            "vehicle_name": "TX6302MT"
+                        }
                     }
                 ],
+                "stops_count": 0,
                 "total_distance": 0,
+                "total_distance_km": 0,
                 "total_load": 0,
-                "vehicle_id": 4
+                "total_time_minutes": 0,
+                "vehicle_id": 1,
+                "warehouse_info": {
+                    "driver_name": "НЕВЯНА ДИМИТРОВА",
+                    "id": 25,
+                    "location_index": 1,
+                    "name": "TX6302MT",
+                    "type": "warehouse",
+                    "vehicle_name": "TX6302MT"
+                }
+            },
+            {
+                "route": [
+                    {
+                        "arrival_minutes": 0,
+                        "demand": 0,
+                        "load": 0,
+                        "location_index": 2,
+                        "location_info": {
+                            "driver_name": "Добромир Добрев",
+                            "id": 24,
+                            "location_index": 2,
+                            "name": "ТХ5487ТМ",
+                            "type": "warehouse",
+                            "vehicle_name": "ТХ5487ТМ"
+                        }
+                    },
+                    {
+                        "arrival_minutes": 0,
+                        "demand": 0,
+                        "load": 0,
+                        "location_index": 2,
+                        "location_info": {
+                            "driver_name": "Добромир Добрев",
+                            "id": 24,
+                            "location_index": 2,
+                            "name": "ТХ5487ТМ",
+                            "type": "warehouse",
+                            "vehicle_name": "ТХ5487ТМ"
+                        }
+                    }
+                ],
+                "stops_count": 0,
+                "total_distance": 0,
+                "total_distance_km": 0,
+                "total_load": 0,
+                "total_time_minutes": 0,
+                "vehicle_id": 2,
+                "warehouse_info": {
+                    "driver_name": "Добромир Добрев",
+                    "id": 24,
+                    "location_index": 2,
+                    "name": "ТХ5487ТМ",
+                    "type": "warehouse",
+                    "vehicle_name": "ТХ5487ТМ"
+                }
+            },
+            {
+                "route": [
+                    {
+                        "arrival_minutes": 0,
+                        "demand": 0,
+                        "load": 0,
+                        "location_index": 3,
+                        "location_info": {
+                            "driver_name": "Милен Иванов",
+                            "id": 32,
+                            "location_index": 3,
+                            "name": "B3108BH",
+                            "type": "warehouse",
+                            "vehicle_name": "B3108BH"
+                        }
+                    },
+                    {
+                        "arrival_minutes": 0,
+                        "demand": 0,
+                        "load": 0,
+                        "location_index": 3,
+                        "location_info": {
+                            "driver_name": "Милен Иванов",
+                            "id": 32,
+                            "location_index": 3,
+                            "name": "B3108BH",
+                            "type": "warehouse",
+                            "vehicle_name": "B3108BH"
+                        }
+                    }
+                ],
+                "stops_count": 0,
+                "total_distance": 0,
+                "total_distance_km": 0,
+                "total_load": 0,
+                "total_time_minutes": 0,
+                "vehicle_id": 3,
+                "warehouse_info": {
+                    "driver_name": "Милен Иванов",
+                    "id": 32,
+                    "location_index": 3,
+                    "name": "B3108BH",
+                    "type": "warehouse",
+                    "vehicle_name": "B3108BH"
+                }
+            },
+            {
+                "route": [
+                    {
+                        "arrival_minutes": 0,
+                        "demand": 0,
+                        "load": 0,
+                        "location_index": 4,
+                        "location_info": {
+                            "driver_name": "Юлиян Събев",
+                            "id": 30,
+                            "location_index": 4,
+                            "name": "ТХ6637АТ",
+                            "type": "warehouse",
+                            "vehicle_name": "ТХ6637АТ"
+                        }
+                    },
+                    {
+                        "arrival_minutes": 0,
+                        "demand": 0,
+                        "load": 0,
+                        "location_index": 4,
+                        "location_info": {
+                            "driver_name": "Юлиян Събев",
+                            "id": 30,
+                            "location_index": 4,
+                            "name": "ТХ6637АТ",
+                            "type": "warehouse",
+                            "vehicle_name": "ТХ6637АТ"
+                        }
+                    }
+                ],
+                "stops_count": 0,
+                "total_distance": 0,
+                "total_distance_km": 0,
+                "total_load": 0,
+                "total_time_minutes": 0,
+                "vehicle_id": 4,
+                "warehouse_info": {
+                    "driver_name": "Юлиян Събев",
+                    "id": 30,
+                    "location_index": 4,
+                    "name": "ТХ6637АТ",
+                    "type": "warehouse",
+                    "vehicle_name": "ТХ6637АТ"
+                }
             }
         ],
         "routes": [
             [
                 {
-                    "arrival": null,
+                    "arrival_minutes": 0,
+                    "demand": 0,
                     "load": 0,
-                    "location_index": 0
+                    "location_index": 0,
+                    "location_info": {
+                        "driver_name": "Димитър Димитров",
+                        "id": 28,
+                        "location_index": 0,
+                        "name": "TX1284МТ",
+                        "type": "warehouse",
+                        "vehicle_name": "TX1284МТ"
+                    }
                 },
                 {
-                    "arrival": null,
-                    "load": 0,
-                    "location_index": 0
-                }
-            ],
-            [
-                {
-                    "arrival": null,
-                    "load": 0,
-                    "location_index": 1
-                },
-                {
-                    "arrival": null,
-                    "load": 0,
-                    "location_index": 1
-                }
-            ],
-            [
-                {
-                    "arrival": null,
-                    "load": 0,
-                    "location_index": 2
-                },
-                {
-                    "arrival": null,
-                    "load": 0,
-                    "location_index": 2
-                }
-            ],
-            [
-                {
-                    "arrival": null,
-                    "load": 0,
-                    "location_index": 3
-                },
-                {
-                    "arrival": null,
+                    "arrival_minutes": 0,
+                    "demand": 2,
                     "load": 2,
-                    "location_index": 13
+                    "location_index": 6,
+                    "location_info": {
+                        "client_address": "гр Добрич Добрич ГР ГЛАВИНИЦА п к 7630 ул ОБОРИЩЕ 5",
+                        "client_name": "АВТОТРАНС",
+                        "client_phone": "0885736867",
+                        "location_index": 6,
+                        "order_id": 11251,
+                        "order_no": 2011245,
+                        "priority": 5,
+                        "type": "order"
+                    }
                 },
                 {
-                    "arrival": null,
+                    "arrival_minutes": 0,
+                    "demand": 1,
+                    "load": 3,
+                    "location_index": 9,
+                    "location_info": {
+                        "client_address": "гр Добрич Добрич 25 ТИ СЕПТЕМВРИ 62А",
+                        "client_name": "ГАРДЕНИЯ",
+                        "client_phone": "058600217,0887615608",
+                        "location_index": 9,
+                        "order_id": 11254,
+                        "order_no": 2011248,
+                        "priority": 5,
+                        "type": "order"
+                    }
+                },
+                {
+                    "arrival_minutes": 0,
+                    "demand": 2,
                     "load": 5,
-                    "location_index": 10
+                    "location_index": 5,
+                    "location_info": {
+                        "client_address": "гр Добрич Добрич БУЛ 25 СЕПТЕМВРИ 19 вх Б ет 5 ап 13",
+                        "client_name": "25 СЕПТЕМВРИ 19 Б",
+                        "client_phone": "0877331707",
+                        "location_index": 5,
+                        "order_id": 11250,
+                        "order_no": 2011244,
+                        "priority": 5,
+                        "type": "order"
+                    }
                 },
                 {
-                    "arrival": null,
+                    "arrival_minutes": 0,
+                    "demand": 1,
                     "load": 6,
-                    "location_index": 11
+                    "location_index": 11,
+                    "location_info": {
+                        "client_address": "гр Добрич Добрич УЛ ГЕНЕРАЛ КОЛЕВ 60 ет 2",
+                        "client_name": "ГЕНЕРАЛ КОЛЕВ 60",
+                        "client_phone": "0899388082",
+                        "location_index": 11,
+                        "order_id": 11256,
+                        "order_no": 2011250,
+                        "priority": 5,
+                        "type": "order"
+                    }
                 },
                 {
-                    "arrival": null,
-                    "load": 8,
-                    "location_index": 6
-                },
-                {
-                    "arrival": null,
+                    "arrival_minutes": 0,
+                    "demand": 3,
                     "load": 9,
-                    "location_index": 9
+                    "location_index": 10,
+                    "location_info": {
+                        "client_address": "гр Добрич Добрич УЛ ВОЛГА 12",
+                        "client_name": "ВОЛГА 12",
+                        "client_phone": "0897722442",
+                        "location_index": 10,
+                        "order_id": 11255,
+                        "order_no": 2011249,
+                        "priority": 5,
+                        "type": "order"
+                    }
                 },
                 {
-                    "arrival": null,
+                    "arrival_minutes": 0,
+                    "demand": 2,
                     "load": 11,
-                    "location_index": 5
+                    "location_index": 13,
+                    "location_info": {
+                        "client_address": "гр Добрич Добрич ЖК ДРУЖБА 42 вх А ет 5 ап 12",
+                        "client_name": "ДРУЖБА 42 А",
+                        "client_phone": "0887341155",
+                        "location_index": 13,
+                        "order_id": 11258,
+                        "order_no": 2011252,
+                        "priority": 5,
+                        "type": "order"
+                    }
                 },
                 {
-                    "arrival": null,
+                    "arrival_minutes": 0,
+                    "demand": 2,
                     "load": 13,
-                    "location_index": 12
+                    "location_index": 12,
+                    "location_info": {
+                        "client_address": "гр Добрич Добрич ДУЛОВО п к 7650 ул НИКОЛА ПЕТКОВ 12",
+                        "client_name": "ДОА КАР",
+                        "client_phone": "0896894196",
+                        "location_index": 12,
+                        "order_id": 11257,
+                        "order_no": 2011251,
+                        "priority": 5,
+                        "type": "order"
+                    }
                 },
                 {
-                    "arrival": null,
+                    "arrival_minutes": 0,
+                    "demand": 3,
                     "load": 16,
-                    "location_index": 7
+                    "location_index": 7,
+                    "location_info": {
+                        "client_address": "гр Добрич Добрич ЖК БАЛИК 27 вх А ет 8 ап 21",
+                        "client_name": "БАЛИК 27",
+                        "client_phone": "0885850149",
+                        "location_index": 7,
+                        "order_id": 11252,
+                        "order_no": 2011246,
+                        "priority": 5,
+                        "type": "order"
+                    }
                 },
                 {
-                    "arrival": null,
+                    "arrival_minutes": 0,
+                    "demand": 1,
                     "load": 17,
-                    "location_index": 8
+                    "location_index": 8,
+                    "location_info": {
+                        "client_address": "гр Добрич Добрич ЖК БАЛИК 28 вх Б ет 8 ап 21",
+                        "client_name": "БАЛИК 28 Б",
+                        "client_phone": "0876977336",
+                        "location_index": 8,
+                        "order_id": 11253,
+                        "order_no": 2011247,
+                        "priority": 5,
+                        "type": "order"
+                    }
                 },
                 {
-                    "arrival": null,
+                    "arrival_minutes": 0,
+                    "demand": 0,
                     "load": 17,
-                    "location_index": 3
+                    "location_index": 0,
+                    "location_info": {
+                        "driver_name": "Димитър Димитров",
+                        "id": 28,
+                        "location_index": 0,
+                        "name": "TX1284МТ",
+                        "type": "warehouse",
+                        "vehicle_name": "TX1284МТ"
+                    }
                 }
             ],
             [
                 {
-                    "arrival": null,
+                    "arrival_minutes": 0,
+                    "demand": 0,
                     "load": 0,
-                    "location_index": 4
+                    "location_index": 1,
+                    "location_info": {
+                        "driver_name": "НЕВЯНА ДИМИТРОВА",
+                        "id": 25,
+                        "location_index": 1,
+                        "name": "TX6302MT",
+                        "type": "warehouse",
+                        "vehicle_name": "TX6302MT"
+                    }
                 },
                 {
-                    "arrival": null,
+                    "arrival_minutes": 0,
+                    "demand": 0,
                     "load": 0,
-                    "location_index": 4
+                    "location_index": 1,
+                    "location_info": {
+                        "driver_name": "НЕВЯНА ДИМИТРОВА",
+                        "id": 25,
+                        "location_index": 1,
+                        "name": "TX6302MT",
+                        "type": "warehouse",
+                        "vehicle_name": "TX6302MT"
+                    }
+                }
+            ],
+            [
+                {
+                    "arrival_minutes": 0,
+                    "demand": 0,
+                    "load": 0,
+                    "location_index": 2,
+                    "location_info": {
+                        "driver_name": "Добромир Добрев",
+                        "id": 24,
+                        "location_index": 2,
+                        "name": "ТХ5487ТМ",
+                        "type": "warehouse",
+                        "vehicle_name": "ТХ5487ТМ"
+                    }
+                },
+                {
+                    "arrival_minutes": 0,
+                    "demand": 0,
+                    "load": 0,
+                    "location_index": 2,
+                    "location_info": {
+                        "driver_name": "Добромир Добрев",
+                        "id": 24,
+                        "location_index": 2,
+                        "name": "ТХ5487ТМ",
+                        "type": "warehouse",
+                        "vehicle_name": "ТХ5487ТМ"
+                    }
+                }
+            ],
+            [
+                {
+                    "arrival_minutes": 0,
+                    "demand": 0,
+                    "load": 0,
+                    "location_index": 3,
+                    "location_info": {
+                        "driver_name": "Милен Иванов",
+                        "id": 32,
+                        "location_index": 3,
+                        "name": "B3108BH",
+                        "type": "warehouse",
+                        "vehicle_name": "B3108BH"
+                    }
+                },
+                {
+                    "arrival_minutes": 0,
+                    "demand": 0,
+                    "load": 0,
+                    "location_index": 3,
+                    "location_info": {
+                        "driver_name": "Милен Иванов",
+                        "id": 32,
+                        "location_index": 3,
+                        "name": "B3108BH",
+                        "type": "warehouse",
+                        "vehicle_name": "B3108BH"
+                    }
+                }
+            ],
+            [
+                {
+                    "arrival_minutes": 0,
+                    "demand": 0,
+                    "load": 0,
+                    "location_index": 4,
+                    "location_info": {
+                        "driver_name": "Юлиян Събев",
+                        "id": 30,
+                        "location_index": 4,
+                        "name": "ТХ6637АТ",
+                        "type": "warehouse",
+                        "vehicle_name": "ТХ6637АТ"
+                    }
+                },
+                {
+                    "arrival_minutes": 0,
+                    "demand": 0,
+                    "load": 0,
+                    "location_index": 4,
+                    "location_info": {
+                        "driver_name": "Юлиян Събев",
+                        "id": 30,
+                        "location_index": 4,
+                        "name": "ТХ6637АТ",
+                        "type": "warehouse",
+                        "vehicle_name": "ТХ6637АТ"
+                    }
                 }
             ]
         ],
-        "total_distance": 4468334,
+        "total_distance": 21838,
+        "total_distance_km": 21.84,
         "unassigned_orders": []
+    },
+    "prepared": {
+        "capacities": [
+            35,
+            15,
+            129,
+            48,
+            10
+        ],
+        "demands": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            2,
+            3,
+            1,
+            1,
+            3,
+            1,
+            2,
+            2
+        ],
+        "depot_indices": [
+            0,
+            1,
+            2,
+            3,
+            4
+        ],
+        "distance_matrix": [
+            [
+                0,
+                53225,
+                20191,
+                23791,
+                26248,
+                9088,
+                9327,
+                7201,
+                7183,
+                8892,
+                9221,
+                9694,
+                8295,
+                8699
+            ],
+            [
+                53225,
+                0,
+                39040,
+                32218,
+                50436,
+                49518,
+                50483,
+                49949,
+                49977,
+                50095,
+                49024,
+                49177,
+                49198,
+                48491
+            ],
+            [
+                20191,
+                39040,
+                0,
+                7015,
+                14238,
+                23320,
+                24340,
+                22185,
+                22198,
+                23674,
+                22972,
+                23509,
+                22356,
+                21988
+            ],
+            [
+                23791,
+                32218,
+                7015,
+                0,
+                20592,
+                24349,
+                25440,
+                23710,
+                23731,
+                24819,
+                23913,
+                24359,
+                23538,
+                23003
+            ],
+            [
+                26248,
+                50436,
+                14238,
+                20592,
+                0,
+                32922,
+                33723,
+                31280,
+                31281,
+                33081,
+                32731,
+                33317,
+                31886,
+                31783
+            ],
+            [
+                9088,
+                49518,
+                23320,
+                24349,
+                32922,
+                0,
+                1095,
+                1906,
+                1921,
+                577,
+                496,
+                623,
+                1035,
+                1354
+            ],
+            [
+                9327,
+                50483,
+                24340,
+                25440,
+                33723,
+                1095,
+                0,
+                2456,
+                2457,
+                668,
+                1564,
+                1305,
+                1984,
+                2438
+            ],
+            [
+                7201,
+                49949,
+                22185,
+                23710,
+                31280,
+                1906,
+                2456,
+                0,
+                29,
+                1852,
+                2025,
+                2497,
+                1143,
+                1741
+            ],
+            [
+                7183,
+                49977,
+                22198,
+                23731,
+                31281,
+                1921,
+                2457,
+                29,
+                0,
+                1858,
+                2045,
+                2514,
+                1168,
+                1769
+            ],
+            [
+                8892,
+                50095,
+                23674,
+                24819,
+                33081,
+                577,
+                668,
+                1852,
+                1858,
+                0,
+                1071,
+                1068,
+                1320,
+                1823
+            ],
+            [
+                9221,
+                49024,
+                22972,
+                23913,
+                32731,
+                496,
+                1564,
+                2025,
+                2045,
+                1071,
+                0,
+                586,
+                950,
+                989
+            ],
+            [
+                9694,
+                49177,
+                23509,
+                24359,
+                33317,
+                623,
+                1305,
+                2497,
+                2514,
+                1068,
+                586,
+                0,
+                1502,
+                1556
+            ],
+            [
+                8295,
+                49198,
+                22356,
+                23538,
+                31886,
+                1035,
+                1984,
+                1143,
+                1168,
+                1320,
+                950,
+                1502,
+                0,
+                713
+            ],
+            [
+                8699,
+                48491,
+                21988,
+                23003,
+                31783,
+                1354,
+                2438,
+                1741,
+                1769,
+                1823,
+                989,
+                1556,
+                713,
+                0
+            ]
+        ],
+        "locations": [
+            [
+                43.620821,
+                27.915816
+            ],
+            [
+                43.152753,
+                28.053642
+            ],
+            [
+                43.501851,
+                28.105133
+            ],
+            [
+                43.441965,
+                28.077782
+            ],
+            [
+                43.586032,
+                28.238245
+            ],
+            [
+                43.5674401,
+                27.8303557
+            ],
+            [
+                43.5737649,
+                27.8199278
+            ],
+            [
+                43.5768898,
+                27.8501094
+            ],
+            [
+                43.577154,
+                27.850078
+            ],
+            [
+                43.572339,
+                27.827992
+            ],
+            [
+                43.563452,
+                27.83313
+            ],
+            [
+                43.562853,
+                27.825903
+            ],
+            [
+                43.567907,
+                27.843195
+            ],
+            [
+                43.561649,
+                27.84515
+            ]
+        ],
+        "meta": {
+            "orders_count": 9,
+            "total_locations": 14,
+            "warehouses_count": 5
+        },
+        "num_vehicles": 5,
+        "order_details": [
+            {
+                "client_address": "гр Добрич Добрич БУЛ 25 СЕПТЕМВРИ 19 вх Б ет 5 ап 13",
+                "client_name": "25 СЕПТЕМВРИ 19 Б",
+                "client_phone": "0877331707",
+                "location_index": 5,
+                "order_id": 11250,
+                "order_no": 2011244,
+                "priority": 5,
+                "type": "order"
+            },
+            {
+                "client_address": "гр Добрич Добрич ГР ГЛАВИНИЦА п к 7630 ул ОБОРИЩЕ 5",
+                "client_name": "АВТОТРАНС",
+                "client_phone": "0885736867",
+                "location_index": 6,
+                "order_id": 11251,
+                "order_no": 2011245,
+                "priority": 5,
+                "type": "order"
+            },
+            {
+                "client_address": "гр Добрич Добрич ЖК БАЛИК 27 вх А ет 8 ап 21",
+                "client_name": "БАЛИК 27",
+                "client_phone": "0885850149",
+                "location_index": 7,
+                "order_id": 11252,
+                "order_no": 2011246,
+                "priority": 5,
+                "type": "order"
+            },
+            {
+                "client_address": "гр Добрич Добрич ЖК БАЛИК 28 вх Б ет 8 ап 21",
+                "client_name": "БАЛИК 28 Б",
+                "client_phone": "0876977336",
+                "location_index": 8,
+                "order_id": 11253,
+                "order_no": 2011247,
+                "priority": 5,
+                "type": "order"
+            },
+            {
+                "client_address": "гр Добрич Добрич 25 ТИ СЕПТЕМВРИ 62А",
+                "client_name": "ГАРДЕНИЯ",
+                "client_phone": "058600217,0887615608",
+                "location_index": 9,
+                "order_id": 11254,
+                "order_no": 2011248,
+                "priority": 5,
+                "type": "order"
+            },
+            {
+                "client_address": "гр Добрич Добрич УЛ ВОЛГА 12",
+                "client_name": "ВОЛГА 12",
+                "client_phone": "0897722442",
+                "location_index": 10,
+                "order_id": 11255,
+                "order_no": 2011249,
+                "priority": 5,
+                "type": "order"
+            },
+            {
+                "client_address": "гр Добрич Добрич УЛ ГЕНЕРАЛ КОЛЕВ 60 ет 2",
+                "client_name": "ГЕНЕРАЛ КОЛЕВ 60",
+                "client_phone": "0899388082",
+                "location_index": 11,
+                "order_id": 11256,
+                "order_no": 2011250,
+                "priority": 5,
+                "type": "order"
+            },
+            {
+                "client_address": "гр Добрич Добрич ДУЛОВО п к 7650 ул НИКОЛА ПЕТКОВ 12",
+                "client_name": "ДОА КАР",
+                "client_phone": "0896894196",
+                "location_index": 12,
+                "order_id": 11257,
+                "order_no": 2011251,
+                "priority": 5,
+                "type": "order"
+            },
+            {
+                "client_address": "гр Добрич Добрич ЖК ДРУЖБА 42 вх А ет 5 ап 12",
+                "client_name": "ДРУЖБА 42 А",
+                "client_phone": "0887341155",
+                "location_index": 13,
+                "order_id": 11258,
+                "order_no": 2011252,
+                "priority": 5,
+                "type": "order"
+            }
+        ],
+        "warehouse_details": [
+            {
+                "driver_name": "Димитър Димитров",
+                "id": 28,
+                "location_index": 0,
+                "name": "TX1284МТ",
+                "type": "warehouse",
+                "vehicle_name": "TX1284МТ"
+            },
+            {
+                "driver_name": "НЕВЯНА ДИМИТРОВА",
+                "id": 25,
+                "location_index": 1,
+                "name": "TX6302MT",
+                "type": "warehouse",
+                "vehicle_name": "TX6302MT"
+            },
+            {
+                "driver_name": "Добромир Добрев",
+                "id": 24,
+                "location_index": 2,
+                "name": "ТХ5487ТМ",
+                "type": "warehouse",
+                "vehicle_name": "ТХ5487ТМ"
+            },
+            {
+                "driver_name": "Милен Иванов",
+                "id": 32,
+                "location_index": 3,
+                "name": "B3108BH",
+                "type": "warehouse",
+                "vehicle_name": "B3108BH"
+            },
+            {
+                "driver_name": "Юлиян Събев",
+                "id": 30,
+                "location_index": 4,
+                "name": "ТХ6637АТ",
+                "type": "warehouse",
+                "vehicle_name": "ТХ6637АТ"
+            }
+        ]
     },
     "error": null
 }
